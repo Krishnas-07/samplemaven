@@ -4,6 +4,7 @@
   <artifactId>maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -12,8 +13,8 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-				
-				</plugin>
+			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -25,6 +26,6 @@
 					</archive>
 				</configuration>
 			</plugin>
-		</plugins>	
-</build>
-</project>
+		</plugins>
+		</build>
+ </project>
